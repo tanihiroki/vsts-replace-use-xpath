@@ -1,0 +1,72 @@
+{
+  "manifestVersion": 1,
+  "id": "vsts-replace-use-xpath",
+  "version": "0.1.9",
+  "name": "XPath Replace",
+  "scopes": [ "vso.work", "vso.work_write" ],
+  "description": "Replace content in XML files by XPath",
+  "baseUri": "https://tanihiroki.visualstudio.com/vsts-replace-use-xpath",
+  "publisher": "tanihiroki",
+  "public": false,
+  "icons": {
+    "default": "images/logo.png"
+  },
+  "targets": [
+    {
+      "id": "Microsoft.VisualStudio.Services"
+    }
+  ],
+  "tags": [
+    "xml, replace, file, tasks, variables"
+  ],
+  "links": {
+    "home": {
+      "uri": "https://tanihiroki.visualstudio.com/vsts-replace-use-xpath"
+    },
+    "repository": {
+      "uri": "https://tanihiroki.visualstudio.com/DefaultCollection/_git/vsts-replace-use-xpath"
+    },
+    "issues": {
+      "uri": "https://tanihiroki.visualstudio.com/vsts-replace-use-xpath/_backlogs?level=Features&showParents=false&_a=backlog"
+    }
+  },
+  "branding": {
+    "color": "rgb(220, 235, 252)",
+    "theme": "light"
+  },
+  "content": {
+    "details": {
+      "path": "README.md"
+    },
+    "license": {
+      "path": "LICENSE",
+      "contentType": "text/plain"
+    }
+  },
+  "files": [
+    {
+      "path": "Tasks"
+    },
+    {
+      "path": "sdk/node_modules/vss-web-extension-sdk/lib",
+      "addressable": true,
+      "packagePath": "lib"
+    }
+
+  ],
+  "categories": [
+    "Build and release"
+  ],
+  "contributions": [
+    {
+      "id": "vsts-replace-use-xpath",
+      "targets": [
+        "ms.vss-distributed-task.tasks"
+      ],
+      "type": "ms.vss-distributed-task.task",
+      "properties": {
+        "name": "Tasks"
+      }
+    }
+  ]
+}
