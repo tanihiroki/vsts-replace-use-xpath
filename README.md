@@ -1,3 +1,6 @@
+![Build Status](https://tanihiroki.visualstudio.com/_apis/public/build/definitions/5f16160f-ce05-4ccc-9291-7e8f4ae1f409/2/badge)
+
+
 # XPath-Replace
 
 A task for replace content in files based on xpath as a build step in VSTS.

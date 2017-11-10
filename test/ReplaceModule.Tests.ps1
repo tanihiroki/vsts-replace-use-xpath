@@ -66,11 +66,11 @@ Describe "ReplaceInFileTest" {
       $DestDoc = Join-Path $testDrive 'shift-jis.vsixmanifest'
       Copy-Item $SourceDoc $DestDoc
 
-      ReplaceInFile $DestDoc '//ns:PackageManifest/ns:Metadata/ns:Description/text()' 'æ—¥æœ¬èªã§ç½®æ›' $namespace
+      ReplaceInFile $DestDoc '//ns:PackageManifest/ns:Metadata/ns:Description/text()' '“ú–{Œê‚Å’uŠ·' $namespace
 
       [xml]$ResultDoc = cat $DestDoc -Encoding Default
 
-        $ResultDoc.PackageManifest.Metadata.Description.InnerText | should be 'æ—¥æœ¬èªã§ç½®æ›'
+        $ResultDoc.PackageManifest.Metadata.Description.InnerText | should be '“ú–{Œê‚Å’uŠ·'
     }
     It "Replace element japanese text utf-8" {
       $namespace = @{
@@ -81,10 +81,10 @@ Describe "ReplaceInFileTest" {
       $DestDoc = Join-Path $testDrive 'utf-8.vsixmanifest'
       Copy-Item $SourceDoc $DestDoc
 
-      ReplaceInFile $DestDoc '//ns:PackageManifest/ns:Metadata/ns:Description/text()' 'æ—¥æœ¬èªã§ç½®æ›' $namespace
+      ReplaceInFile $DestDoc '//ns:PackageManifest/ns:Metadata/ns:Description/text()' '“ú–{Œê‚Å’uŠ·' $namespace
 
       [xml]$ResultDoc = cat $DestDoc -Encoding UTF8
 
-        $ResultDoc.PackageManifest.Metadata.Description.InnerText | should be 'æ—¥æœ¬èªã§ç½®æ›'
+        $ResultDoc.PackageManifest.Metadata.Description.InnerText | should be '“ú–{Œê‚Å’uŠ·'
     }
 }
