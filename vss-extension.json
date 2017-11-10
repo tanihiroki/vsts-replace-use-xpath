@@ -21,13 +21,13 @@
   ],
   "links": {
     "home": {
-      "uri": "https://tanihiroki.visualstudio.com/vsts-replace-use-xpath"
+      "uri": "https://github.com/tanihiroki/vsts-replace-use-xpath"
     },
     "repository": {
-      "uri": "https://tanihiroki.visualstudio.com/DefaultCollection/_git/vsts-replace-use-xpath"
+      "uri": "https://github.com/tanihiroki/vsts-replace-use-xpath.git"
     },
     "issues": {
-      "uri": "https://tanihiroki.visualstudio.com/vsts-replace-use-xpath/_backlogs?level=Features&showParents=false&_a=backlog"
+      "uri": "https://github.com/tanihiroki/vsts-replace-use-xpath/issues"
     }
   },
   "branding": {
