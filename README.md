@@ -24,7 +24,7 @@ The extension installs and add build task from utility category.
 
 ## Examples ##
 
-- Replace version into [source.extension.vsixmanifest](https://raw.githubusercontent.com/tanihiroki/vsts-replace-use-xpath/master/test/data/utf-8/source.extension.vsixmanifest)files:
+- Replace version into [source.extension.vsixmanifest](https://raw.githubusercontent.com/tanihiroki/vsts-replace-use-xpath/master/test/data/utf-8/source.extension.vsixmanifest) files:
 
     File Mask: `**/*.vsixmanifest`
 

@@ -1,7 +1,7 @@
 {
   "manifestVersion": 1,
   "id": "vsts-replace-use-xpath",
-  "version": "0.1.9",
+  "version": "0.1.11",
   "name": "XPath Replace",
   "scopes": [ "vso.work", "vso.work_write" ],
   "description": "Replace content in XML files by XPath",
@@ -17,18 +17,14 @@
     }
   ],
   "tags": [
-    "xml, replace, file, tasks, variables"
+    "xml, replace, file, tasks, variable"
   ],
   "links": {
-    "home": {
-      "uri": "https://github.com/tanihiroki/vsts-replace-use-xpath"
-    },
-    "repository": {
-      "uri": "https://github.com/tanihiroki/vsts-replace-use-xpath.git"
-    },
-    "issues": {
-      "uri": "https://github.com/tanihiroki/vsts-replace-use-xpath/issues"
-    }
+    "support": { "uri": "https://github.com/tanihiroki/vsts-replace-use-xpath/issues" }
+  },
+  "repository": {
+    "type": "git",
+    "uri": "https://github.com/tanihiroki/vsts-replace-use-xpath.git"
   },
   "branding": {
     "color": "rgb(220, 235, 252)",
