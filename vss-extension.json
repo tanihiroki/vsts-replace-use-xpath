@@ -1,11 +1,11 @@
 {
   "manifestVersion": 1,
   "id": "vsts-replace-use-xpath",
-  "version": "0.1.12",
+  "version": "0.1.13",
   "name": "XPath Replace",
   "scopes": [ "vso.work", "vso.work_write" ],
   "description": "Replace content in XML files by XPath",
-  "baseUri": "https://tanihiroki.visualstudio.com/vsts-replace-use-xpath",
+  "baseUri": "https://github.com/tanihiroki/vsts-replace-use-xpath",
   "publisher": "tanihiroki",
   "public": false,
   "icons": {
