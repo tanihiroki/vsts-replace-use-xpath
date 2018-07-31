@@ -3,7 +3,7 @@
   "name": "vsts-replace-use-xpath",
   "friendlyName": "Replace Contents by XPath",
   "description": "Replace content in XML files by XPath",
-  "helpMarkDown": "[More Information](https://tanihiroki.visualstudio.com/vsts-replace-use-xpath)",
+  "helpMarkDown": "[More Information](https://marketplace.visualstudio.com/items?itemName=tanihiroki.vsts-replace-use-xpath)",
   "category": "Utility",
   "visibility": [
     "Build",
@@ -13,7 +13,7 @@
   "version": {
     "Major": 0,
     "Minor": 1,
-    "Patch": 0
+    "Patch": 13
   },
   "demands": [
   ],
