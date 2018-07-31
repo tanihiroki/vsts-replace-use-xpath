@@ -1,0 +1,12 @@
+{
+  "name": "vsts-replace-use-xpath",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanihiroki/vsts-replace-use-xpath.git"
+  },
+  "license": "GPL-3.0",
+  "dependencies": {
+    "vss-web-extension-sdk": "^5.134.0",
+    "vsts-task-lib": "^2.6.0"
+  }
+}

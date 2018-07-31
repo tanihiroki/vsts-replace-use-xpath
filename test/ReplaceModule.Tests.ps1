@@ -18,6 +18,16 @@ Describe "ReplaceInXmlDocTest" {
         $RepXmlDoc.root.child1.InnerText | should be 'abcde'
         $RepXmlDoc.root.child1.catt | should be 'after-replace'
     }
+    It "Replace environment text (No NameSpace)" {
+
+        $result = '1.2.3.4'
+        Set-Item env:TEST_VALUE -value $result
+
+        $xml = [xml]'<root><child1 catt="0">abcde</child1></root>'
+        $RepXmlDoc = ReplaceInXmlDoc $xml '//root/child1/@catt' '%TEST_VALUE%' @{}
+        $RepXmlDoc.root.child1.InnerText | should be 'abcde'
+        $RepXmlDoc.root.child1.catt | should be $result
+    }
     It "Replace element text (Use Namespace)" {
       $namespaces = @{
         hoge='http://hoge.com'

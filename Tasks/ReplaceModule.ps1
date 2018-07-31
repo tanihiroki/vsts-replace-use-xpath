@@ -84,8 +84,9 @@ function ReplaceNodeValue(){
   process
   {
     if(!$node){return}
-    Write-Host $node.Node.value => $Replacement
-    $node.Node.value = $Replacement
+    $RepStr = [Environment]::ExpandEnvironmentVariables($Replacement)
+    Write-Host $node.Node.value => $RepStr
+    $node.Node.value = $RepStr
   }
 }
 
