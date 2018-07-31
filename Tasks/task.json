@@ -47,7 +47,7 @@
       "helpMarkDown": "Replacement string"
     },
     {
-        "defaultValue": "@{}",
+        "defaultValue": "",
         "helpMarkDown": "Xml namespaces as a Key-Value map.No Need dauble-quotation. No Need single-quotation",
         "label": "Xml Namespaces",
         "name": "Namespaces",

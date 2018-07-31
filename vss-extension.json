@@ -1,7 +1,7 @@
 {
   "manifestVersion": 1,
   "id": "vsts-replace-use-xpath",
-  "version": "0.1.11",
+  "version": "0.1.12",
   "name": "XPath Replace",
   "scopes": [ "vso.work", "vso.work_write" ],
   "description": "Replace content in XML files by XPath",
