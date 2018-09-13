@@ -1,4 +1,4 @@
-![Build Status](https://tanihiroki.visualstudio.com/_apis/public/build/definitions/5f16160f-ce05-4ccc-9291-7e8f4ae1f409/2/badge)
+![Build status](https://dev.azure.com/tanihiroki/vsts-replace-use-xpath/_apis/build/status/vsts-replace-use-xpath-CI)
 
 
 # XPath-Replace
